@@ -7,7 +7,7 @@
   "author": "Aditya Anirudh & Apoorva",
   "license": "ISC",
   "repository": {
-    "type": "git",
+    "type": "git"
    
   },
   "bugs": {
@@ -25,8 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "proxy": "node simple-proxy.js",
-    "dev": "concurrently \"npm run start\" \"npm run proxy\""
+    "proxy": "node simple-proxy.js"
   },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
